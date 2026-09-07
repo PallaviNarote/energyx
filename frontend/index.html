@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EnergyX</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            ENERGY<span>X</span>
+        </div>
+
+
+        <nav>
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+
+        <button
+            class="cart-btn"
+            onclick="openCart()">
+
+            🛒 Cart
+            <span id="cartCount">0</span>
+
+        </button>
+
+    </header>
+
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-small-title">
+                    POWER YOUR DAY
+                </p>
+
+
+                <h1>
+
+                    ENERGY THAT
+
+                    <span>
+                        KEEPS YOU
+                    </span>
+
+                    <span>
+                        GOING
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Refresh yourself with powerful energy
+                    designed for your active lifestyle.
+
+                </p>
+
+
+                <a
+                    href="#products"
+                    class="btn">
+
+                    Shop Now
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ABOUT SECTION
+        ========================== -->
+
+        <section
+            id="about"
+            class="about">
+
+
+            <div class="about-heading">
+
+                <p class="section-label">
+                    WHY ENERGYX
+                </p>
+
+
+                <h2>
+
+                    More Than Just
+                    <span>Energy</span>
+
+                </h2>
+
+
+                <p>
+
+                    EnergyX is designed for people who want
+                    to stay active, focused and ready to take
+                    on their day.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="about-cards">
+
+
+                <div class="about-card">
+
+                    <div class="about-icon">
+                        ⚡
+                    </div>
+
+                    <h3>
+                        High Energy
+                    </h3>
+
+                    <p>
+
+                        Power your busy day and keep moving
+                        toward your goals.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="about-card">
+
+                    <div class="about-icon">
+                        🎯
+                    </div>
+
+                    <h3>
+                        Stay Focused
+                    </h3>
+
+                    <p>
+
+                        Stay alert and focused when your day
+                        gets demanding.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="about-card">
+
+                    <div class="about-icon">
+                        🔥
+                    </div>
+
+                    <h3>
+                        Active Lifestyle
+                    </h3>
+
+                    <p>
+
+                        Made for people who love staying
+                        active and energetic.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PRODUCTS SECTION
+        ========================== -->
+
+        <section
+            id="products"
+            class="products-section">
+
+
+            <p class="section-label">
+                OUR PRODUCTS
+            </p>
+
+
+            <h2>
+
+                Choose Your
+                <span>Energy</span>
+
+            </h2>
+
+
+            <div
+                id="productContainer"
+                class="products">
+
+                <!-- Products are loaded from backend -->
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =========================
+             FEATURES SECTION
+        ========================== -->
+
+        <section class="features">
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    ⚡
+                </div>
+
+                <h3>
+                    Powerful Energy
+                </h3>
+
+                <p>
+                    Stay active throughout your day.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    🥤
+                </div>
+
+                <h3>
+                    Great Taste
+                </h3>
+
+                <p>
+                    Refreshing taste in every drink.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    🔥
+                </div>
+
+                <h3>
+                    Made For You
+                </h3>
+
+                <p>
+                    Perfect for an active lifestyle.
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACT SECTION
+        ========================== -->
+
+        <section
+            id="contact"
+            class="contact">
+
+
+            <p class="section-label">
+                CONTACT US
+            </p>
+
+
+            <h2>
+
+                Let's
+                <span>Connect</span>
+
+            </h2>
+
+
+            <p class="contact-intro">
+
+                Have a question about EnergyX or want to know
+                more about our project? We'd love to hear from you.
+
+            </p>
+
+
+
+            <div class="contact-container">
+
+
+                <!-- PROJECT INFORMATION -->
+
+                <div class="contact-info">
+
+
+                    <h3>
+                        Get In Touch
+                    </h3>
+
+
+                    <p>
+
+                        EnergyX is an internship project.
+                        This project was developed as part of my internship to
+                        gain practical experience and improve my full-stack web 
+                        development skills.
+
+                    </p>
+
+
+
+                    <div class="contact-detail">
+
+
+                        <div class="contact-icon">
+                            📧
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                Email
+                            </h4>
+
+                            <p>
+                                energyx.drinks@gmail.com
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="contact-detail">
+
+
+                        <div class="contact-icon">
+                            📍
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                Location
+                            </h4>
+
+                            <p>
+                             maharashtra, India
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="contact-detail">
+
+
+                        <div class="contact-icon">
+                            💻
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                Project
+                            </h4>
+
+                            <p>
+                                EnergyX — Energy Drink Store
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- CONTACT FORM -->
+
+                <form id="contactForm">
+
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                    >
+
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                    >
+
+
+                    <textarea
+                        id="message"
+                        placeholder="Your Message"
+                        required
+                    ></textarea>
+
+
+                    <button type="submit">
+
+                        Send Message
+
+                    </button>
+
+
+                </form>
+
+
+            </div>
+
+
+
+            <p id="formMessage"></p>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+         CART PANEL
+    ========================== -->
+
+    <div
+        id="cartPanel"
+        class="cart-panel">
+
+
+        <div class="cart-header">
+
+
+            <h2>
+                Your Cart
+            </h2>
+
+
+            <button
+                class="close-cart"
+                onclick="closeCart()">
+
+                ✕
+
+            </button>
+
+
+        </div>
+
+
+
+        <div id="cartItems">
+
+            <!-- Cart items will appear here -->
+
+        </div>
+
+
+
+        <div class="cart-footer">
+
+
+            <h3>
+
+                Total:
+                ₹<span id="cartTotal">0</span>
+
+            </h3>
+
+
+            <button
+                class="checkout-btn"
+                onclick="checkout()">
+
+                Checkout
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+
+        <div class="logo">
+
+            ENERGY<span>X</span>
+
+        </div>
+
+
+        <p>
+
+            © 2026 EnergyX. All Rights Reserved.
+
+        </p>
+
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
